@@ -32,3 +32,11 @@ BODY:
   "owner": "Juan castro"
 }
 
+Para buscar por edad uso el GET http://localhost:8000/api/animals/age/2/20:
+
+donde 2 es la edad minima y 20 la maxima.
+
+Para buscar animales vacunados uso el GET http://localhost:8000/api/vaccinated-animals
+
+Para buscar animales no vacunados uso el GET: http://localhost:8000/api/unvaccinated-animals
+

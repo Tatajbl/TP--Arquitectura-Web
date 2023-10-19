@@ -6,6 +6,9 @@ const animalSchema = new mongoose.Schema({
     species: String,
     age: Number,
     owner: String,
+    vaccinesUpdated: Boolean, // true tiene vacunas actualizadas, false no
+
+
 });
 
 const Animal = mongoose.model('Animal', animalSchema);
